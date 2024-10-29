@@ -1,0 +1,34 @@
+{
+    "alg": null,
+    "lr_search": [1e-3, 1e-4, 1e-5, 1e-6],
+    "gamma_search": [1.25, 1.5, 2, 3],
+    "mu_search": [0.01, 0.1, 1.0, 10.0],
+    "default_train_config": {
+        "M": 2,
+        "H": 16,
+        "lamb": 1,
+        "zeta": 16,
+        "sigma": 1,
+
+        "c": 1,
+        "mu": 1,
+        "L": 2,
+
+        "rounds": 5000,
+        "S": 1,
+        "lr": null,
+        "I": 10,
+
+        "sampling": "cyclic",
+        "P": 480,
+        "client_groups": 2,
+        "amplify": null,
+        "gamma": null,
+        "correction": null,
+        "fedprox_mu": null,
+
+        "seed": 0,
+        "print_freq": 100,
+        "output_path": "results/tune_all/results.csv"
+    }
+}

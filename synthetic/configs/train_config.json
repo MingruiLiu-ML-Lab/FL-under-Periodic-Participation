@@ -1,0 +1,28 @@
+{
+    "M": 2,
+    "H": 16,
+    "lamb": 1,
+    "zeta": 16,
+    "sigma": 1,
+
+    "c": 1,
+    "mu": 1,
+    "L": 2,
+
+    "rounds": 5000,
+    "S": 1,
+    "lr": 0.0001,
+    "I": 10,
+
+    "sampling": "cyclic",
+    "P": 50,
+    "client_groups": 2,
+    "amplify": false,
+    "gamma": 1.5,
+    "correction": null,
+    "fedprox_mu": null,
+
+    "seed": 0,
+    "print_freq": 100,
+    "output_path": "results/results.csv"
+}
